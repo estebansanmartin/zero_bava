@@ -319,9 +319,8 @@ dove:
 - penalità_focus = (defocus_mm/3)² × 0.8
 - interazione_critica = 2.0 se (V alta AND P bassa)
 ```
-### 4. Validazione
+### Validazione
 Il modello è calibrato su:
 - Dati letteratura: Chen et al. "Laser cutting of thick steel plates" (2018)
-- Dati industriali: Campioni forniti da aziende partner (anonimizzati)
 - Range validità: Spessori 0.5-6mm, potenze 1000-6000W, velocità 1000-15000mm/min
 Errore medio predizione: ±0.05mm (validato su 50 campioni reali)
